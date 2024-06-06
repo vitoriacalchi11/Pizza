@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PizzaMaui.Paginas.Ptres"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             Title="Ptres"
+             BackgroundColor="#FFF5E6"
+             NavigationPage.HasNavigationBar="False">
+    
+    <ContentPage.Behaviors>
+        <toolkit:StatusBarBehavior StatusBarColor="#BF422F"/>
+    </ContentPage.Behaviors>
+
+    <VerticalStackLayout>
+        <Image Source="p3.png" WidthRequest="430" HeightRequest="270"/>
+
+        <Label 
+        Text="M A R I N A R A - 4 2 , 0 0"
+        FontSize="Large"
+           
+        Margin="20"/>
+
+        <Label 
+        Text="Molho de tomate, orégano, manjericão, alho e azeite."
+        FontSize="Large"
+        VerticalOptions="Center"     
+        HorizontalOptions="Center" Margin="20"/>
+
+
+        <Button Text="Voltar"
+        TextColor="Black"
+        WidthRequest="250"
+        x:Name="btnVoltarPtres"
+        Clicked="btnVoltarPtres_Clicked"
+        BackgroundColor="#457430"
+                Margin="30"/>
+
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PizzaMaui.Paginas.Sobre"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             BackgroundColor="#FFF5E6"
+             NavigationPage.HasNavigationBar="False">
+
+    <ContentPage.Behaviors>
+        <toolkit:StatusBarBehavior StatusBarColor="#BF422F"/>
+    </ContentPage.Behaviors>
+
+    <VerticalStackLayout>
+        <Label 
+    Text="DESENVOLVIDOR"
+    FontSize="Large"
+    VerticalOptions="Center" 
+    HorizontalOptions="Center" Margin="40"/>
+
+
+        <Frame Margin="10"
+   BorderColor="Black"
+   CornerRadius="35"
+   HeightRequest="100"
+   WidthRequest="200"
+   IsClippedToBounds="True"
+   HorizontalOptions="Center"
+   VerticalOptions="Center">
+            <Image Source="foto.jpg"
+     Aspect="AspectFill"
+     Margin="-20"
+     HeightRequest="100"
+     WidthRequest="200" />
+        </Frame>
+
+
+        <Label 
+    Text="Projeto totalmente desenvolvido pela aluna Vitoria de Oliveira Dragani Calchi, amante do front-end e hater do back-end. "
+    FontSize="Medium"
+    VerticalOptions="Center" 
+            VerticalTextAlignment="Center"
+HorizontalTextAlignment="Center"
+    HorizontalOptions="Center" Margin="30"/>
+
+        <Label 
+   Text="PROJETO"
+   FontSize="Large"
+   VerticalOptions="Center" 
+   HorizontalOptions="Center" Margin="20"/>
+
+        <Label 
+   Text="Esse foi um projeto oferecido pelo curso do SENAI, com o intuido de fazer um projeto no  figma para ter um modelo do que desenvolver no asp.net. "
+   FontSize="Medium"
+   VerticalOptions="Center" 
+            VerticalTextAlignment="Center"
+HorizontalTextAlignment="Center"
+   HorizontalOptions="Center" Margin="30"/>
+
+    </VerticalStackLayout>
+</ContentPage>

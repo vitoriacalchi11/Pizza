@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="PizzaMaui.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:PizzaMaui"
+    xmlns:pages="clr-namespace:PizzaMaui.Paginas"
+    Shell.FlyoutBehavior="Flyout"
+    Title="PizzaMaui">
+    <Shell.Resources>
+        <ResourceDictionary>
+            <Style TargetType="FlyoutItem">
+                <Setter Property="Shell.BackgroundColor" Value="#BF422F" />
+                <Setter Property="Shell.ForegroundColor" Value="Wheat" />
+                <Setter Property="Shell.TitleColor" Value="Wheat" />
+                <Setter Property="Shell.DisabledColor" Value="Gray" />
+                <Setter Property="Shell.UnselectedColor" Value="Gray" />
+            </Style>
+        </ResourceDictionary>
+    </Shell.Resources>
+
+    <FlyoutItem Title="Home" >
+        <ShellContent Route="home" ContentTemplate="{DataTemplate pages:Home}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Sobre" >
+        <ShellContent Route="sobre" ContentTemplate="{DataTemplate pages:Sobre}" />
+    </FlyoutItem>
+    
+    <FlyoutItem Title="Cardapio" >
+        <ShellContent Route="cardapio" ContentTemplate="{DataTemplate pages:Cardapio}" />
+    </FlyoutItem>  
+    
+    <FlyoutItem Title="Contato" >
+        <ShellContent Route="contato" ContentTemplate="{DataTemplate pages:Contato}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Perfil" >
+        <ShellContent Route="perfil" ContentTemplate="{DataTemplate pages:Perfil}" />
+    </FlyoutItem>
+
+</Shell>

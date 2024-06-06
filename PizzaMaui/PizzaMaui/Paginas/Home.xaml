@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PizzaMaui.Paginas.Home"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             Title="Home"
+             BackgroundColor="#FFF5E6"
+             NavigationPage.HasNavigationBar="False">
+
+    <ContentPage.Behaviors>
+        <toolkit:StatusBarBehavior StatusBarColor="#BF422F"/>
+    </ContentPage.Behaviors>
+
+    <ScrollView>
+        <VerticalStackLayout>
+
+        <Label 
+            Text="Pizzaria senai"
+            FontSize="32"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" Margin="40"/>
+
+        <Frame Margin="0"
+            BorderColor="Black"
+            CornerRadius="35"
+            HeightRequest="200"
+            WidthRequest="200"
+            IsClippedToBounds="True"
+            HorizontalOptions="Center"
+            VerticalOptions="Center">
+
+            <Image Source="logo.jpg"
+                Aspect="AspectFill"
+                Margin="-20">
+            </Image>
+        </Frame>
+
+        <Label 
+            Text="Sta int o’ furn!"
+            FontSize="40"
+            TextColor="#BF422F"
+            FontAttributes="Italic"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" Margin="30"/>
+
+        <Label 
+            Text="“Está no forno!” - No dialeto napoletano,
+ a tradução do momento mágico da 
+criacão da verdadeira pizza napoletana"
+            FontSize="Large"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            VerticalTextAlignment="Center"
+            HorizontalTextAlignment="Center" Margin="5"/>
+
+        <Image Source="pizza.jpg" Margin="20"/>
+
+        <Label 
+            Text="4X Melhor Pizzaria da América do 
+Sul (Tre Spicchi) Guia Gambero 
+Rosso® 2024."
+            FontSize="Large"
+            FontAttributes="Bold"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            VerticalTextAlignment="Center"
+            HorizontalTextAlignment="Center" Margin="20"/>
+
+        <Label 
+            Text="Desde 2013 a Leggera Pizza Napoletana
+ serve pizzas tipicamente napoletanas,
+individuais, abertas manualmente e assadas 
+em forno a lenha com temperatura a 450
+ graus, com massa leve, fermentação
+ natural e produzidas com um blend de
+ farinhas italianas, tomates com 
+denominação de origem da região do
+ Monte Vesúvio na Campania em 
+Nápoles e elaboradas conforme técnica
+ napoletana reconhecida como patrimônio
+ imaterial pela UNESCO®."
+            FontSize="Large"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            VerticalTextAlignment="Center"
+            HorizontalTextAlignment="Center" Margin="15"/>
+
+
+            <Image Source="linea.png" Margin="10"  />
+
+            <Image Source="piza.jpg"
+                   WidthRequest="350"/>
+
+            <Image Source="pizzaa.jpg" Margin="20"/>
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>

@@ -1,0 +1,125 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PizzaMaui
+build_property.ProjectDir = C:\Users\SENAI3EM\Documents\App\PizzaMaui\PizzaMaui\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/SENAI3EM/Documents/App/PizzaMaui/PizzaMaui/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PizzaMaui.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/SENAI3EM/Documents/App/PizzaMaui/PizzaMaui/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PizzaMaui.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/SENAI3EM/Documents/App/PizzaMaui/PizzaMaui/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PizzaMaui.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/SENAI3EM/Documents/App/PizzaMaui/PizzaMaui/Paginas/Cadastro.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PizzaMaui.Paginas.Cadastro.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\Cadastro.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\Cadastro.xaml
+
+[C:/Users/SENAI3EM/Documents/App/PizzaMaui/PizzaMaui/Paginas/Cardapio.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PizzaMaui.Paginas.Cardapio.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\Cardapio.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\Cardapio.xaml
+
+[C:/Users/SENAI3EM/Documents/App/PizzaMaui/PizzaMaui/Paginas/Contato.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PizzaMaui.Paginas.Contato.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\Contato.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\Contato.xaml
+
+[C:/Users/SENAI3EM/Documents/App/PizzaMaui/PizzaMaui/Paginas/Home.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PizzaMaui.Paginas.Home.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\Home.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\Home.xaml
+
+[C:/Users/SENAI3EM/Documents/App/PizzaMaui/PizzaMaui/Paginas/Login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PizzaMaui.Paginas.Login.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\Login.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\Login.xaml
+
+[C:/Users/SENAI3EM/Documents/App/PizzaMaui/PizzaMaui/Paginas/PagUm.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PizzaMaui.Paginas.PagUm.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\PagUm.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\PagUm.xaml
+
+[C:/Users/SENAI3EM/Documents/App/PizzaMaui/PizzaMaui/Paginas/Pcinco.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PizzaMaui.Paginas.Pcinco.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\Pcinco.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\Pcinco.xaml
+
+[C:/Users/SENAI3EM/Documents/App/PizzaMaui/PizzaMaui/Paginas/Pdois.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PizzaMaui.Paginas.Pdois.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\Pdois.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\Pdois.xaml
+
+[C:/Users/SENAI3EM/Documents/App/PizzaMaui/PizzaMaui/Paginas/Perfil.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PizzaMaui.Paginas.Perfil.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\Perfil.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\Perfil.xaml
+
+[C:/Users/SENAI3EM/Documents/App/PizzaMaui/PizzaMaui/Paginas/Pquatro.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PizzaMaui.Paginas.Pquatro.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\Pquatro.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\Pquatro.xaml
+
+[C:/Users/SENAI3EM/Documents/App/PizzaMaui/PizzaMaui/Paginas/Pseis.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PizzaMaui.Paginas.Pseis.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\Pseis.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\Pseis.xaml
+
+[C:/Users/SENAI3EM/Documents/App/PizzaMaui/PizzaMaui/Paginas/Ptres.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PizzaMaui.Paginas.Ptres.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\Ptres.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\Ptres.xaml
+
+[C:/Users/SENAI3EM/Documents/App/PizzaMaui/PizzaMaui/Paginas/Sobre.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PizzaMaui.Paginas.Sobre.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\Sobre.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\Sobre.xaml
+
+[C:/Users/SENAI3EM/Documents/App/PizzaMaui/PizzaMaui/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PizzaMaui.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/SENAI3EM/Documents/App/PizzaMaui/PizzaMaui/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PizzaMaui.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

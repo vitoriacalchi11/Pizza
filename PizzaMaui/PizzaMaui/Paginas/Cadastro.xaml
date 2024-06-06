@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PizzaMaui.Paginas.Cadastro"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             BackgroundColor="#FFF5E6"
+             NavigationPage.HasNavigationBar="False"
+             Title="Cadastro">
+
+
+    <ContentPage.Behaviors>
+        <toolkit:StatusBarBehavior StatusBarColor="#BF422F"/>
+    </ContentPage.Behaviors>
+
+    <ScrollView>
+        <VerticalStackLayout Margin="15"
+                 Padding="15"
+                 Spacing="15">
+
+            <Label Text="Cadastrando..."
+       TextColor="Black"
+       VerticalOptions="Center"
+       HorizontalOptions="Center"
+       FontSize="Title"
+               Margin="20"/>
+
+            <Image Source="pessoa.svg" WidthRequest="100" HeightRequest="100" Margin="30"/>
+
+            <Label x:Name="lblNome"
+       Text="Nome"
+       TextColor="Black"
+       FontSize="Subtitle"/>
+
+            <Frame Padding="5" BorderColor="#457430" BackgroundColor="Transparent">
+                <Entry x:Name="txtNome" 
+                Text="{Binding Nome}"
+                Placeholder="Digite seu Nome..." 
+                PlaceholderColor="Gray"
+                Keyboard="Text"/>
+            </Frame>
+
+
+            <Label x:Name="lblEmail"
+       Text="Email"
+       TextColor="Black"
+       FontSize="Subtitle"/>
+
+            <Frame Padding="5" BorderColor="#457430" BackgroundColor="Transparent" >
+                <Entry x:Name="txtEmail" 
+                    Text="{Binding Email}"
+                    Placeholder="Digite seu email..." 
+                    PlaceholderColor="Gray"
+                    Keyboard="Email"/>
+            </Frame>
+
+            <Label x:Name="lblSenha"
+       FontSize="Subtitle"
+       Text="Senha"
+       TextColor="Black"/>
+
+            <Frame Padding="5" BorderColor="#457430" BackgroundColor="Transparent" >
+                <Entry Placeholder="Digite sua senha ..."
+               PlaceholderColor="Gray"
+                Text="{Binding Senha}"
+                x:Name="txtSenha"
+                IsPassword="True"
+                   />
+            </Frame>
+
+            <Button Text="Cadastrar"
+        TextColor="Black"
+        WidthRequest="250"
+        x:Name="btnCadastrar"
+        Clicked="btnCadastrar_Clicked"
+        BackgroundColor="#457430"
+                Margin="10"/>
+
+            <Button Text="Voltar"
+        TextColor="Black"
+        WidthRequest="250"
+        x:Name="btnVoltar"
+        Clicked="btnVoltar_Clicked"
+                BorderColor="#457430"
+        BackgroundColor="#F2E7DC"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+
+</ContentPage>

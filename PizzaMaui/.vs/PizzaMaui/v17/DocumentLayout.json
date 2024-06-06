@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SENAI3EM\\Documents\\App\\PizzaMaui\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC3D7CA3-6BEE-4846-A71C-84FAB1BC2134}|PizzaMaui\\PizzaMaui.csproj|c:\\users\\senai3em\\documents\\app\\pizzamaui\\pizzamaui\\paginas\\perfil.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DC3D7CA3-6BEE-4846-A71C-84FAB1BC2134}|PizzaMaui\\PizzaMaui.csproj|solutionrelative:pizzamaui\\paginas\\perfil.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Perfil.xaml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Documents\\App\\PizzaMaui\\PizzaMaui\\Paginas\\Perfil.xaml",
+              "RelativeDocumentMoniker": "PizzaMaui\\Paginas\\Perfil.xaml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Documents\\App\\PizzaMaui\\PizzaMaui\\Paginas\\Perfil.xaml",
+              "RelativeToolTip": "PizzaMaui\\Paginas\\Perfil.xaml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAB0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-06T14:48:20.323Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
